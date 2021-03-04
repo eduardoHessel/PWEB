@@ -1,0 +1,90 @@
+body {
+  background-image     : url("background.jpg");
+  background-repeat    : no-repeat;
+  font-family          : "Arial", sans-serif;
+  line-height          : 1.5;
+  background-size      : cover;
+}
+
+.container {
+  margin: 0 auto;
+  width : 960px;
+}
+
+article {
+  background-color: #FFF;
+  border          : 1px solid #CCC;
+  border-color    : #CCC #999 #999 #CCC;
+  margin-bottom   : 20px;
+  padding         : 10px;
+}
+
+
+article h2 {
+  margin       : 0;
+  border-bottom: 1px solid #1269E0;
+  color        : #1269E0;
+}
+
+article img {
+  border : 1px solid #1269E0;
+  float  : left;
+  margin : 10px 10px 0 0;
+  padding: 2px;
+  width  : 180px;
+}
+
+header h1 {
+  display: inline;
+  float  : initial;
+}
+
+header h1 a {
+  color          : #1269E0;
+  text-decoration: none;
+  margin-left    : 30px;
+  position       : absolute;
+  margin-top     : 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  font-size       : 12px;
+  text-align      : center;
+  background-color: #FFF;
+}
+
+header {
+  background-color: #FFF;
+}
+
+header img {
+  width: 10%;
+  margin-top: 7px;
+}
+
+section {
+  float     : left;
+  width     : 660px;
+  margin-top: 10px;
+}
+
+aside {
+  background-color: #FFF;
+  padding         : 10px;
+  float           : right;
+  width           : 260px;
+  margin-top      : 10px;
+}
+
+aside h3 {
+  color     : #1269E0;
+  margin-top: 0px;
+}
+
+aside ul {
+  font-size: 15px;
+}
