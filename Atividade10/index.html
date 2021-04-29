@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Abra a Janela</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+
+    <script>
+        function AbrirJanela() {
+
+            var imagem = document.getElementById("imgJanela");
+            imagem.src = "janelaaberta.png";
+
+        }
+
+        function FecharJanela() {
+
+            var imagem = document.getElementById("imgJanela");
+            imagem.src = "janelafechada.png";
+
+        }
+
+        function QuebrarJanela() {
+
+            var imagem = document.getElementById("imgJanela");
+            imagem.src = "janelaquebra.png";
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1>Abra a janela</h1>
+    <img onmouseover="AbrirJanela()" onmouseleave="FecharJanela()" onmousedown="QuebrarJanela()"
+     width="500px" src="janelafechada.png" id="imgJanela">
+</body>
+
+</html>
