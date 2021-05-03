@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Eduardo Steiner Hessel">
+  <title>Portifólio - Eduardo Steiner Hessel</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/headers.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="perfil" viewBox="0 0 16 16">
+      <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+    </symbol>
+    <symbol id="book" viewBox="0 0 16 16">
+      <path
+        d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+    </symbol>
+    <symbol id="projects" viewBox="0 0 16 16">
+      <path
+        d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
+      <path
+        d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v2H1V3a1 1 0 0 1 1-1h12zM1 13V6h4v8H2a1 1 0 0 1-1-1zm5 1V6h9v7a1 1 0 0 1-1 1H6z" />
+    </symbol>
+    <symbol id="people-circle" viewBox="0 0 16 16">
+      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+      <path fill-rule="evenodd"
+        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+    </symbol>
+    <symbol id="grid" viewBox="0 0 16 16">
+      <path
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+    </symbol>
+  </svg>
+
+  <header class="px-3 py-2 bg-dark text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a class="navbar-brand d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
+          href="#profile">Portifólio - Eduardo Steiner Hessel</a>
+        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+          <li>
+            <a href="#profile" class="nav-link text-white">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#perfil" />
+              </svg>
+              Perfil
+            </a>
+          </li>
+          <li>
+            <a href="#formacao" class="nav-link text-white">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#book" />
+              </svg>
+              Formação
+            </a>
+          </li>
+          <li>
+            <a href="#projetos" class="nav-link text-white">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#projects" />
+              </svg>
+              Projetos
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="album bg-light">
+
+      <div class="container">
+
+        <div class="p-5 mb-4 bg-white rounded-3" id="profile">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+            <div class="col-md-3 text-center">
+              <img class="bd-placeholder-img rounded-circle" src="img/profile.png" width="180" height="180">
+            </div>
+            <div class="col-md-9">
+              <h3>Eduardo Steiner Hessel</h3>
+              <h5 class="text-muted">Desenvolvedor e Analista de Sistemas</h5>
+              <p class="col-md-8">
+                Fascinado por tecnologia desde sempre, buscando aprender mais a cada dia.
+              <ul>
+                <li>E-mail: eduardoshessel@gmail.com</li>
+                <li>Telefone: (00)0000-0000</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-md-stretch" id="formacao">
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-white border rounded-3">
+              <h2>Formação</h2>
+              <ul>
+                <li>
+                  FATEC José Crespo Gonzales - Sorocaba/SP<br>
+                  Tecnólogo em Análise e Desenvolvimento de Sistemas<br>
+                  Ensino Superior - Cursando 5º Semestre<br>
+                  Período - Noturno
+                </li>
+                <br>
+                <li>
+                  ETEC Martinho di Ciero - Itu/SP<br>
+                  Ensino Médio - 2018<br>
+                  Técnico em Informática – 2018<br>
+                </li>
+              </ul>
+              <h2>Cursos</h2>
+              <ul>
+                <li>Genexus - Analista Genexus for Students - 2019</li>
+                <li>CNA - Inglês - 2018</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-white border rounded-3">
+              <h2>Habilidades</h2>
+              <ul>
+                <li>
+                  Experiência com a plataforma <a target="_blank" href="https://www.genexus.com/pt/">Genexus</a>
+                  (versões 16 e 17).
+                </li>
+                <li>
+                  Experiência em HTML e CSS.
+                </li>
+                <li>
+                  Experiência com SGBDs SQL Server e MySQL.
+                </li>
+                <li>
+                  Conhecimento das linguagens PHP, C# e JavaScript.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="album py-5 bg-light">
+      <div class="container" id="projetos">
+        <h2 class="fw-bold">Projetos</h2>
+        <br>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <div id="carouselAutomacao" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselAutomacao" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselAutomacao" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="img/Automacao1.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="img/Automacao2.png">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutomacao"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAutomacao"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+              <div class="card-body">
+                <h6>Automação Residencial</h6>
+                <p class="card-text">Projeto desenvolvido como Trabalho de Conclusão de Curso de Técnico em
+                  Informática no ano de 2018. Desenvolvido em linguagem PHP e framework
+                  CSS Bootstrap. Aplicação com intuito de controlar equipamentos e dispositivos de uma casa com
+                  automação residencial.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/eduardoHessel/automacaoResidencial" target="_blank"><button
+                        type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
+                  </div>
+                  <small class="text-muted">2018</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <div id="carouselACS" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselACS" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselACS" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="img/acs1.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="img/acs2.png">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselACS" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselACS" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+              <div class="card-body">
+                <h6>ACS</h6>
+                <p class="card-text">Projeto com enfoque no trabalho de Agentes Comunitários de Saúde dos municípios.
+                  Possui um aplicativo mobile
+                  para sistema operacional Android que permite cadastrar e atualizar
+                  dados de pessoas, famílias e domicílios, além de gerar fichas com dados sobre a saúde dos cidadãos.
+                  Possui também um ambiente web,
+                  para controle dos dados enviados a partir dos tablets Android. Desenvolvido 100% na plataforma
+                  Genexus (versão 16).
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">2019</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <div id="carouselSaneamento" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselSaneamento" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselSaneamento" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="img/coletor1.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="img/coletor2.png">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSaneamento"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselSaneamento"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+              <div class="card-body">
+                <h6>Saneamento</h6>
+                <p class="card-text">Aplicação mobile android para coleta de dados dos hidrômetros para verificar
+                  o consumo de água dos cidadãos O sistema possui também um ambiente web,
+                  para controle dos dados enviados a partir dos tablets Android. Desenvolvido 100% na plataforma
+                  Genexus (versão 16).
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">2019</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <div id="carouselFicha" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselFicha" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselFicha" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="img/FichaCampo1.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="img/FichaCampo2.png">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFicha"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselFicha"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+              <div class="card-body">
+                <h6>Ficha de Campo</h6>
+                <p class="card-text">Aplicativo mobile para empresa laboratorial, feito para coletar
+                  dados dos equipamentos utilizados durante coletas, verificando sempre a calibração dos mesmos.
+                  Além disso, possui um ambiente web para cadastros e para verificação dos dados enviados pelos
+                  dispositivos móveis.
+                  Desenvolvido 100% na plataforma Genexus (versão 17).
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">2020</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Voltar ao topo</a>
+      </p>
+      <p class="mb-1">Desenvolvido por Eduardo Steiner Hessel. 20/04/2021.</p>
+      <p class="mb-0">Projeto Portifólio para disciplina de Programação Web - 5º Semestre.</p>
+    </div>
+  </footer>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
