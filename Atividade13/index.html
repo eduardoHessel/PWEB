@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        function verCurso() {
+
+            if (document.getElementById("idCursos").value != "") {
+                var confirmar = confirm("Deseja realmente visualizar esse curso?");
+                if (confirmar) {
+                    novaJanela = window.open(document.getElementById("idCursos").value, "janela1", "width = 600, height = 300");
+                }
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <select id="idCursos" name="select" onchange="verCurso();">
+        <option value="">(Selecione)</option>
+        <option value="ads.html">Análise e Desenvolvimento de Sistemas</option>
+        <option value="logistica.html">Logística</option>
+    </select>
+</body>
+
+</html>
