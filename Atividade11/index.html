@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        function TransformaMaiuscula() {
+            if (document.getElementById("maiuscula").checked) {
+                document.forms.formulario1.elements["texto"].value = document.forms.formulario1.elements["texto"].value.toUpperCase();
+                document.getElementById("minuscula").checked = false;
+            }
+        }
+
+        function TransformaMinuscula() {
+            if (document.getElementById("minuscula").checked) {
+                document.forms.formulario1.elements["texto"].value = document.forms.formulario1.elements["texto"].value.toLowerCase();
+                document.getElementById("maiuscula").checked = false;
+            }
+        }
+    </script>
+
+</head>
+
+
+<body>
+
+    <form id="formulario1">
+        <label for="texto"> Insira o texto aqui </label>
+        <input type="text" id="texto" nome="texto">
+        <br>
+        <input type="checkbox" id="maiuscula" nome="maiuscula" onclick="TransformaMaiuscula();">
+        <label for="maiuscula"> Letras maiúsculas </label>
+
+        <input type="checkbox" id="minuscula" nome="minuscula" onclick="TransformaMinuscula();">
+        <label for="minuscula"> Letras minúsculas </label>
+    </form>
+
+</body>
+
+</html>
